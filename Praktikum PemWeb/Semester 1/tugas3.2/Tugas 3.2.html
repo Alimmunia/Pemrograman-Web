@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+
+<body style="margin: 6%;">
+    <div>
+        <fieldset style="border: 2px solid;">
+            <p style="text-align: center; padding: 0%;">Home &emsp; | &emsp; Generate Link &emsp; | &emsp; Transaction
+                History &emsp;
+                | &emsp; Policy &emsp; |
+                &emsp; Logout</p>
+        </fieldset>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td rowspan="10">
+                    <img src="m1-macbook-pro-pp-header.png" alt="macbook" style="height: 230px;"><br>
+                    <input type="Submit" value="Upload Picture" style="width: 240px;">
+                </td>
+                <td><label for="title">Title Here</label></td>
+                <td>:</td>
+                <td><input type="text" id="title" placeholder="MacBook M1 Pro" style="width: 68mm;"></td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 50px;"><label for="des">Description</label></td>
+                <td style="padding-bottom: 50px;">:</td>
+                <td><textarea id="des" cols="30" rows="3" placeholder="Year : 2009 | Model : | Condition : Mint"
+                        style="width: 68mm;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="number">Account Number</label></td>
+                <td>:</td>
+                <td><input type="text" id="number" placeholder="123-456-789-0" style="width: 68mm;"></td>
+            </tr>
+            <tr>
+                <td><label for="bank">Bank</label></td>
+                <td>:</td>
+                <td>
+                    <select id="bank" style="width: 70mm;">
+                        <option>HSBC</option>
+                        <option>Mandiri</option>
+                        <option>BCA</option>
+                        <option>BRI</option>
+                        <option>BNI</option>
+                        <option>Danamon</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="holder">Account Holder</label></td>
+                <td>:</td>
+                <td><input type="text" id="holder" placeholder="Name Here" style="width: 68mm;"></td>
+            </tr>
+            <tr>
+                <td><label for="trans">Transaction</label></td>
+                <td>:</td>
+                <td><input type="number" id="trans" placeholder="0" style="width: 8mm;"><br>
+                    *if the transaction is for 3 person, choose 3 from the drop-dows list
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2"></td>
+                <td><input type="checkbox" id="sendtomobilephone"><label for="sendtomobilephone"
+                        style="color: #088A08;">Send
+                        to
+                        Mobile
+                        Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="sendtoemail"><label for="sendtoemail" style="color: #088A08;">Send to
+                        Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Send to Mobile Phone</label></td>
+                <td>:</td>
+                <td><input type="text" id="phone" placeholder="+62857-7878-9857" style="width: 68mm;"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Send to Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" placeholder="huzaifahalim@gmail.com" style="width: 68mm;"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <center><input type="Submit" value="Generate Nabr Link" style="background-color:springgreen;"></center>
+</body>
+
+</html>

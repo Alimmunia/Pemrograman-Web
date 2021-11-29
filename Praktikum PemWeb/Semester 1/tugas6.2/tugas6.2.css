@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 80vh;
+}
+
+nav {
+    background-color: rgb(0, 255, 85);
+    width: 20vh;
+    padding: 1em;
+}
+
+.div1 {
+    flex-direction: column;
+}
+
+.div2 {
+    display: flex;
+}
+
+header {
+    background-color: blue;
+    width: 80vh;
+    height: 15vh;
+}
+
+aside {
+    background-color: rgb(251, 255, 0);
+    width: 20vh;
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    width: 80vh;
+    height: 15vh;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    width: 60vh;
+    height: 50vh;
+    flex: 2;
+}
